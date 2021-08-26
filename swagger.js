@@ -28,6 +28,11 @@ const doc = {
             "id":"",
             "word":"",
             "definition":"",
+        },
+        Comentario:{
+            "id":"",
+            "title":"",
+            "description":"",
         }
     }
 }

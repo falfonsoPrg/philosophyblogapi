@@ -28,12 +28,14 @@ const AudiovisualModel = require("../models/AudiovisualModel")
 const DisertacionModel = require("../models/DisertacionModel")
 const GlosarioModel = require("../models/GlosarioModel")
 const ReseniaModel = require("../models/ReseñaModel")
+const ComentarioModel = require("../models/ComentarioModel")
 
 //TODO: Create the actual models as below
 const Audiovisual = AudiovisualModel(sequelize)
 const Disertacion = DisertacionModel(sequelize)
 const Glosario = GlosarioModel(sequelize)
 const Resenia = ReseniaModel(sequelize)
+const Comentario = ComentarioModel(sequelize)
 
 // Chapter.hasMany(ChapterInfo, {foreignKey: 'chapter_id', sourceKey:'chapter_id'});
 // ChapterInfo.belongsTo(Chapter, {foreignKey: 'chapter_id', sourceKey:'chapter_id'});
@@ -50,5 +52,6 @@ module.exports = {
     Audiovisual,
     Disertacion,
     Glosario,
-    Resenia
+    Resenia,
+    Comentario
 }

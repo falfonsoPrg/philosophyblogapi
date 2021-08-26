@@ -534,6 +534,23 @@
           "example": ""
         }
       }
+    },
+    "Comentario": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": ""
+        },
+        "title": {
+          "type": "string",
+          "example": ""
+        },
+        "description": {
+          "type": "string",
+          "example": ""
+        }
+      }
     }
   }
 }

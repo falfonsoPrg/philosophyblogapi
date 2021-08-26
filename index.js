@@ -35,6 +35,7 @@ const AudiovisualRoutes = require("./routes/AudiovisualRoutes")
 const DisertacionRoutes = require("./routes/DisertacionRoutes")
 const GlosarioRoutes = require("./routes/GlosarioRoutes")
 const ReseñaRoutes = require("./routes/ReseñaRoutes")
+const ComentarioRoutes = require("./routes/ComentarioRoutes")
 
 
 //Middleware
@@ -53,6 +54,7 @@ app.use("/api/audiovisuals",AudiovisualRoutes)
 app.use("/api/disertacions",DisertacionRoutes)
 app.use("/api/glosarios",GlosarioRoutes)
 app.use("/api/resenias",ReseñaRoutes)
+app.use("/api/comentarios",ComentarioRoutes)
 
 
 //Initialize the server
